@@ -5,7 +5,7 @@
  *
  * Description: Prints different combinations of three digits..
  *
- * Retrun: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
