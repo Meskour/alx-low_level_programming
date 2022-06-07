@@ -5,7 +5,8 @@
  *
  * void - no return required!
 */
-void print_alphabet()
+
+void print_alphabet(void)
 {
 	char a = 'a';
 	char z = 'z';
