@@ -3,6 +3,9 @@
 /**
  * add - adds two num
  *
+ * @n: first num input
+ * @c: second num input
+ *
  * Return: the result
 */
 
