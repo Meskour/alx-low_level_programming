@@ -26,7 +26,7 @@ void print_diagonal(int n)
 				++c;
 			}
 			++i;
-			_putchar(98); /** 98 == \ */
+			_putchar(92); /** 92 == \ */
 			_putchar('\n');
 		}
 	}
