@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - draws a diagonal line ..
+ * print_diagonal - draws a diagonal line ..
  *
  * @n: input n nomber of times of \
  *
@@ -10,18 +10,18 @@
 
 void print_diagonal(int n)
 {
-	int i = 1;
+	int i = 0;
 
 	if (n <= 0)
 		_putchar('\n');
 	else
 	{
 
-		while (i <= n)
+		while (i < n)
 		{
-			int c = 1;
+			int c = 0;
 
-			while (c <= i)
+			while (c < i)
 			{
 				_putchar(' ');
 				++c;
