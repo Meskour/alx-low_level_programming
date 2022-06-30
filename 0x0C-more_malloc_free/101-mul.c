@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
  * _memset - fills memory with a constant byte
@@ -97,8 +96,8 @@ void multiply(char *s1, char *s2)
 	}
 
 	for (i = 0; i < total_l; i++)
-		printf("%i", ptr[i]);
-	printf("\n");
+		_putchar(ptr[i] + '0');
+	_putchar('\n');
 	free(temp);
 }
 
